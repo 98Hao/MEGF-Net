@@ -41,6 +41,17 @@ LOLv1
 python train.py
 ```
 
+### Evaluate
+Modify line 11 to set the path to the ground-truth images.
+Modify line 12 to set the path to the enhanced images.
+Modify line 13 to specify the test dataset name. When the test dataset is one of 'LOLv1', 'LOLv2_Real', 'LOLv2_Synthetic', 'LSRW_HuaWei', or 'LSRW_Nikon', full-reference metrics including PSNR, SSIM, LPIPS, and FID are computed. For other datasets, no-reference metrics NIQE and PI are used instead.
+
+```bash
+python evaluate.py
+```
+
+
+
 ## Contact
 If you have any questions, please contact 3220245159@bit.edu.cn
 
