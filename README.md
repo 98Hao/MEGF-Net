@@ -19,12 +19,27 @@ Results on LOLv2-Synthetic
 
 ## Get Started
 ### Test
-You can directly test the pre-trained model as follows
+You can directly test the pre-trained model,
+Modify line 21 to specify the input enhanced image path
+Modify line 22 to specify the model path
+Modify line 23 to specify the output path for saving enhanced images
 ```bash
 python test_ours_other.py
 ```
 
+### Train
+Modify lines 173 and 174 to specify the dataset used for training and the dataset used for evaluation during training, respectively. The dataset file path should be set to:
+LOLv1
+   ---train
+      ---High
+      ---Low
+   ---Test
+      ---High
+      ---Low
 
 
+```bash
+python train.py
+```
 
 
