@@ -13,4 +13,10 @@ LSRW [Baidu Disk](https://pan.baidu.com/s/1XHWQAS0ZNrnCyZ-bq7MKvA) (code: `wmrr`
 ## Network Architecture
 ![](figures/Figure1.jpg)
 
+## Quantitative results
+Results on LOLv2-Synthetic
+![](figures/Figure5.jpg)
+
+
+
 
