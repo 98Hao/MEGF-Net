@@ -17,6 +17,12 @@ LSRW [Baidu Disk](https://pan.baidu.com/s/1XHWQAS0ZNrnCyZ-bq7MKvA) (code: `wmrr`
 Results on LOLv2-Synthetic
 ![](figures/Figure5.jpg)
 
+## Get Started
+### Test
+You can directly test the pre-trained model as follows
+python test_ours_other.py
+
+
 
 
 
