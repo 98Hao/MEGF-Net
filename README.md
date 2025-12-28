@@ -20,8 +20,9 @@ Results on LOLv2-Synthetic
 ## Get Started
 ### Test
 You can directly test the pre-trained model as follows
-
+```bash
 python test_ours_other.py
+```
 
 
 
