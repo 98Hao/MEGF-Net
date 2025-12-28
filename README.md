@@ -41,4 +41,14 @@ LOLv1
 python train.py
 ```
 
+## Contact
+If you have any questions, please contact 3220245159@bit.edu.cn
 
+---
+
+
+## Reference Repositories
+This implementation is based on  inspired by:
+- BSMamba: https://github.com/bywlzts/BSMamba
+- CodeEnhance: https://github.com/csxuwu/CodeEnhance
+---
