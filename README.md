@@ -29,6 +29,7 @@ python test_ours_other.py
 
 ### Train
 Modify lines 173 and 174 to specify the dataset used for training and the dataset used for evaluation during training, respectively. The dataset file path should be set to:
+```bash
 LOLv1
    ---train
       ---High
@@ -37,8 +38,6 @@ LOLv1
       ---High
       ---Low
 
-
-```bash
 python train.py
 ```
 
